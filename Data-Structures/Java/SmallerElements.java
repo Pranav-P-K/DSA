@@ -2,11 +2,8 @@
 finds how many elements to the right of that element are smaller than it. 
 The function should return a new ArrayList containing these counts for each element. */
 
-//import java.util.Collections;
-import java.util.ArrayList;
-import java.util.Scanner;
-
-class SmallerElements {
+import java.util.*;
+public class SmallerElements {
     public static ArrayList<Integer> countSmallerElements(ArrayList<Integer> nums) {
         ArrayList<Integer> result = new ArrayList<>();
         for (int i=0;i<nums.size();i++) {
