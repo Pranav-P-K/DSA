@@ -1,3 +1,4 @@
+package Stack;
 /* The stock span problem is a financial problem where we have a series
 of N daily price quotes for a stock and we need to calculate the span of 
 the stock’s price for all N days. The span Si of the stock’s price on a 
@@ -19,6 +20,7 @@ public class StockSpan {
         }
         return stk;
     }
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

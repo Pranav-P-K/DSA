@@ -1,3 +1,4 @@
+package Stack;
 // To reverse a stack using another stack
 
 import java.util.*;
@@ -11,6 +12,7 @@ public class ReverseStack{
         stk = tempStack;
         return stk;
     }
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Stack<Integer> stk = new Stack<>();

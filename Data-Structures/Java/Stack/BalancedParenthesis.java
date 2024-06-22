@@ -1,3 +1,4 @@
+package Stack;
 /* Given an expression string exp, write a program to examine whether the pairs
 and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in the given expression. */
 
@@ -19,10 +20,10 @@ public class BalancedParenthesis {
                     return false;
                 }
             }
-
         }
         return stk.isEmpty();
     }
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = scan.next();
